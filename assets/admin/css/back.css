@@ -1,0 +1,197 @@
+body{
+    font-family: "Roboto",'sans-serif';
+     background-color:#f4f4f4 ; 
+   
+}
+/* ---------------------- sart header bar---------------------- */
+.header{
+    padding: 10px;
+    background-color:#FFF ;
+    
+  
+}
+.header .img img{   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+ 
+}
+/* --------------- satrt navbar------------------------ */
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1005px;
+}
+.navbar{
+    background-color: #17181C; 
+    margin-bottom: 30px;
+   
+    
+}
+
+.navbar .imm {
+   color: #f33f3f; 
+ 
+   font-size: 36px;
+}
+
+.navbar .navbar-nav .nav-link{
+    color:#FFFFFF;
+    margin: 7px;
+}
+.navbar .navbar-nav .nav-link .active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color: #f33f3f;
+    -webkit-transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+}
+.navbar .navbar-toggler{
+  color: #fff;
+  border-color: #fff;
+  font-size: 18px;
+}
+
+
+.login-img h1{
+    color:#4260e4;
+    margin-bottom: 10px;
+}
+h1{
+    color: #f33f3f;
+}
+h2{
+    color: #47abe6;
+ 
+    
+    
+}
+h3{
+    color: #f5a425;
+}
+/* ---------------------start index-------------- */
+.box h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    background: url('../img/body.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin-top: 40px;
+
+}
+.box .cat{
+    width: 200px;
+    max-height: 100px;
+    background-color:rgba(250,250,250,0.15); 
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+
+}
+.box .cat  svg {
+    color: #a12c2f;
+    font-size: 40px;
+}
+.box .cat  span{
+    color: #47abe6;
+    font-size: 30px;
+    
+}
+.box .cat a{
+    text-decoration: none;
+}
+
+/* ---------------------start login-------------- */
+.login-img{
+    background: url('../img/log.jfif') no-repeat center center fixed;
+    max-width:320px;
+    min-height: 400px;
+    background-size: cover;
+    border-radius: 5px; 
+    margin: 40px auto;
+}
+.login-img .login-color{
+    background: rgba(3,3,3, 0.8);
+    max-width:320px;
+    min-height: 400px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+.login-img  form{
+    width: 300px;
+    margin: 40px auto;
+}
+.login-img input{
+    margin-bottom: 10px;
+}
+.login-img .form-control{
+    background-color: #ece9e9;
+}
+.login-img .sub-login{
+    background-color: #47abe6;
+    color: #FFF;
+}
+.img-user{
+    margin-bottom: 10px;
+}
+ .img-user img{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px #47abe6;
+}
+
+/* ---------------------start languages-------------- */
+
+.table h1{
+    margin-bottom: 30px;
+}
+ h1 a{
+    text-decoration: none;
+}
+.table{
+    margin-bottom: 30px;
+    box-shadow: 2px 4px 3px  #494b53;
+}
+.min-table tr:first-child th{
+    background-color: #17181C;
+    color: #FFF;
+
+}
+.min-table i{
+    margin-right:10px ;
+}
+ .table .min-table img{
+    width: 70px;
+    height:70px;
+ }
+ .min-table .cat-f {
+    display: none;
+ }
+
+.form .add input{
+    margin-bottom: 10px;
+   
+}
+.form .add label{
+    color: #500707;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.add .form-control{
+  box-shadow: none;
+  border:0px;
+  background-color: #FFF;
+
+}
+.form .add{
+    margin-bottom: 5px;
+}
+.form img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
